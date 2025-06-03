@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embajada de Guinea Ecuatorial en Marruecos</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background-color: #ffffff; color: #000000; }
+    header { background-color: #00853f; color: white; padding: 1em 2em; text-align: center; }
+    .language-switcher { text-align: right; margin: 0.5em 1em; }
+    .language-switcher button {
+      background-color: #003082;
+      color: white;
+      border: none;
+      margin-left: 5px;
+      padding: 0.5em 1em;
+      cursor: pointer;
+      font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .language-switcher img {
+      width: 20px;
+      height: auto;
+    }
+    nav { background-color: #da121a; display: flex; justify-content: center; flex-wrap: wrap; }
+    nav a { color: white; padding: 1em; text-decoration: none; font-weight: bold; }
+    nav a:hover { background-color: #005f2f; }
+    main { padding: 2em; }
+    footer { background-color: #003082; color: white; text-align: center; padding: 1em; margin-top: 2em; }
+    .lang { display: none; }
+    .lang.active { display: block; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Embajada de Guinea Ecuatorial en Marruecos</h1>
+  </header>
+  <div class="language-switcher">
+    <button onclick="setLang('es')">
+      <img src="https://flagcdn.com/es.svg" alt="Español"> Español
+    </button>
+    <button onclick="setLang('fr')">
+      <img src="https://flagcdn.com/fr.svg" alt="Français"> Français
+    </button>
+    <button onclick="setLang('en')">
+      <img src="https://flagcdn.com/gb.svg" alt="English"> English
+    </button>
+  </div>
+  <!-- Le reste du contenu reste inchangé -->
+  <!-- ... -->
+</body>
+</html>
